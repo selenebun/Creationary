@@ -7,6 +7,15 @@ onEvent("jei.hide.items", event => {
 	event.hide("quark:bamboo_mat_carpet");
 	event.hide("quark:iron_rod");
 
+	// Hide duplicate crop crates.
+	event.hide("quark:beetroot_crate");
+	event.hide("quark:carrot_crate");
+	event.hide("quark:potato_crate");
+
+	// Hide duplicate rope items.
+	event.hide("farmersdelight:rope");
+	event.hide("quark:rope");
+
 	// Hide Quark stone types.
 	event.hide("quark:chiseled_jasper_bricks");
 	event.hide("quark:chiseled_limestone_bricks");
@@ -131,4 +140,31 @@ onEvent("jei.hide.items", event => {
 	event.hide("quark:tuff_stairs");
 	event.hide("quark:tuff_vertical_slab");
 	event.hide("quark:tuff_wall");
+	
+	// Hide Waystones items.
+	event.hide("waystones:attuned_shard");
+	event.hide("waystones:black_sharestone");
+	event.hide("waystones:blue_sharestone");
+	event.hide("waystones:bound_scroll");
+	event.hide("waystones:brown_sharestone");
+	event.hide("waystones:cyan_sharestone");
+	event.hide("waystones:gray_sharestone");
+	event.hide("waystones:green_sharestone");
+	event.hide("waystones:light_blue_sharestone");
+	event.hide("waystones:light_gray_sharestone");
+	event.hide("waystones:lime_sharestone");
+	event.hide("waystones:magenta_sharestone");
+	event.hide("waystones:orange_sharestone");
+	event.hide("waystones:pink_sharestone");
+	event.hide("waystones:portstone");
+	event.hide("waystones:purple_sharestone");
+	event.hide("waystones:red_sharestone");
+	event.hide("waystones:return_scroll");
+	event.hide("waystones:sharestone");
+	event.hide("waystones:warp_dust");
+	event.hide("waystones:warp_plate");
+	event.hide("waystones:warp_scroll");
+	event.hide("waystones:warp_stone");
+	event.hide("waystones:white_sharestone");
+	event.hide("waystones:yellow_sharestone");
 });

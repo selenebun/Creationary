@@ -28,4 +28,7 @@ onEvent("recipes", event => {
 	event.remove({ output: "quark:polished_tuff_vertical_slab" });
 	event.remove({ output: "quark:tuff_bricks_slab" });
 	event.remove({ output: "quark:tuff_bricks_vertical_slab" });
+
+    // Remove duplicate rope.
+	event.remove({ output: "farmersdelight:rope" });
 });
