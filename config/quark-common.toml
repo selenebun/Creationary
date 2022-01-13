@@ -93,7 +93,7 @@
 	Rope = true
 	"Oriental Palette" = true
 	"Nether Brick Fence Gate" = true
-	"More Stone Variants" = true
+	"More Stone Variants" = false
 	"More Potted Plants" = true
 	"More Brick Types" = true
 	Midori = true
@@ -535,9 +535,9 @@
 					"Is Blacklist" = false
 
 	[world.new_stone_types]
-		"Enable Limestone" = true
-		"Enable Jasper" = true
-		"Enable Shale" = true
+		"Enable Limestone" = false
+		"Enable Jasper" = false
+		"Enable Shale" = false
 		"Enable Myalite" = true
 
 		[world.new_stone_types.limestone]
