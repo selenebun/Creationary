@@ -45,18 +45,18 @@
 	"Obsidian Plate" = true
 	"Metal Buttons" = true
 	"Jukebox Automation" = true
-	"Iron Rod" = true
+	"Iron Rod" = false
 	Gravisand = true
 	"Feeding Trough" = true
 	"Ender Watcher" = true
-	"Dispensers Place Blocks" = true
+	"Dispensers Place Blocks" = false
 	Chute = true
 	"Chains Connect Blocks" = true
 
 	[automation.pistons_move_tile_entities]
 		"Enable Chests Moving Together" = true
 		"Render Blacklist" = ["psi:programmer", "botania:starfield"]
-		"Movement Blacklist" = ["minecraft:spawner", "integrateddynamics:cable", "randomthings:blockbreaker", "minecraft:ender_chest", "minecraft:enchanting_table", "minecraft:trapped_chest", "quark:spruce_trapped_chest", "quark:birch_trapped_chest", "quark:jungle_trapped_chest", "quark:acacia_trapped_chest", "quark:dark_oak_trapped_chest", "endergetic:bolloom_bud"]
+		"Movement Blacklist" = ["minecraft:spawner", "integrateddynamics:cable", "randomthings:blockbreaker", "minecraft:ender_chest", "minecraft:enchanting_table", "minecraft:trapped_chest", "quark:spruce_trapped_chest", "quark:birch_trapped_chest", "quark:jungle_trapped_chest", "quark:acacia_trapped_chest", "quark:dark_oak_trapped_chest", "endergetic:bolloom_bud", "create:flywheel"]
 		"Delayed Update List" = ["minecraft:dispenser", "minecraft:dropper"]
 
 	[automation.metal_buttons]
@@ -90,7 +90,7 @@
 	"Soul Sandstone" = true
 	Shingles = true
 	"Shear Vines" = true
-	Rope = true
+	Rope = false
 	"Oriental Palette" = true
 	"Nether Brick Fence Gate" = true
 	"More Stone Variants" = false
@@ -132,7 +132,7 @@
 
 	[building.oriental_palette]
 		"Enable Paper Blocks" = true
-		"Enable Bamboo Mats" = true
+		"Enable Bamboo Mats" = false
 
 	[building.more_stone_variants]
 		"Enable Bricks" = true
