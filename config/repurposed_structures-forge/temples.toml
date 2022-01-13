@@ -1,0 +1,15 @@
+
+#
+# Average distance between spawn attempts for Repurposed Structures Temples.
+# 1 for spawning in most chunks and 1001 for none.
+[Temples]
+	#Range: 1 ~ 1001
+	netherWastelandTempleAverageChunkDistance = 1001
+	#Range: 1 ~ 1001
+	netherBasaltTempleAverageChunkDistance = 1001
+	#Range: 1 ~ 1001
+	netherCrimsonTempleAverageChunkDistance = 1001
+	#Range: 1 ~ 1001
+	netherWarpedTempleAverageChunkDistance = 1001
+	#Range: 1 ~ 1001
+	netherSoulTempleAverageChunkDistance = 1001
