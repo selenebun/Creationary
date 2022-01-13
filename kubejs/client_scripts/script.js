@@ -1,6 +1,12 @@
 // priority: 0
 
 onEvent("jei.hide.items", event => {
+	// Hide disabled Quark features.
+	event.hide("#quark:stools");
+	event.hide("quark:bamboo_mat");
+	event.hide("quark:bamboo_mat_carpet");
+	event.hide("quark:iron_rod");
+
 	// Hide Quark stone types.
 	event.hide("quark:chiseled_jasper_bricks");
 	event.hide("quark:chiseled_limestone_bricks");
