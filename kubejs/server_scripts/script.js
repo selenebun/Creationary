@@ -31,4 +31,7 @@ onEvent("recipes", event => {
 
     // Remove duplicate rope.
 	event.remove({ output: "farmersdelight:rope" });
+    
+	// Remove Waystone recipes.
+	event.remove({ mod: "waystones" });
 });
