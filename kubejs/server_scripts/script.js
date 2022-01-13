@@ -6,6 +6,9 @@ settings.logSkippedRecipes = false
 settings.logErroringRecipes = true
 
 onEvent("recipes", event => {	
+    // Fix missing recipe.
+	event.shapeless("minecraft:trapped_chest", ["minecraft:chest", "minecraft:tripwire_hook"]);
+
 	// Remove Quark stone variants.
     event.remove({ output: "quark:andesite_bricks_slab" });
     event.remove({ output: "quark:andesite_bricks_vertical_slab" });
