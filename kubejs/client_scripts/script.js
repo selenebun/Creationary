@@ -140,6 +140,13 @@ onEvent("jei.hide.items", event => {
 	event.hide("quark:tuff_stairs");
 	event.hide("quark:tuff_vertical_slab");
 	event.hide("quark:tuff_wall");
+
+	// Hide unused fish barrels.
+	event.hide("fish_in_planks:blobfish_barrel");
+	event.hide("fish_in_planks:koi_barrel");
+	event.hide("fish_in_planks:lionfish_barrel");
+	event.hide("fish_in_planks:perch_barrel");
+	event.hide("fish_in_planks:pike_barrel");
 	
 	// Hide Waystones items.
 	event.hide("waystones:attuned_shard");
