@@ -283,7 +283,7 @@
 		#
 		#Here's an example of a map to locate Ice Mountains:
 		#minecraft:ice_mountains,2,8,14,7FE4FF,Ice Mountains Pathfinder Map
-		Customs = []
+		Customs = ["terralith:amethyst_rainforest,5,12,18,8E69CF,Amethyst Rainforest Pathfinder Map", "terralith:caldera,4,8,14,5B5552,Caldera Pathfinder Map", "terralith:cloud_forest,4,8,14,1F470C,Cloud Forest Pathfinder Map","terralith:glacial_chasm,4,8,14,7DA5F3,Glacial Chasm Pathfinder Map", "terralith:moonlight_valley,5,12,18,307A65,Moonlight Valley Pathfinder Map", "terralith:sakura_valley,5,12,18,C06EC1,Sakura Valley Pathfinder Map", "terralith:shield,4,8,14,696C75,Shield Pathfinder Map", "terralith:siberian_taiga,4,8,14,B59720,Siberian Taiga Pathfinder Map", "terralith:skylands,5,12,18,4AE8E0,Skylands Pathfinder Map", "terralith:volcanic_crater,5,12,18,E04E14,Volcanic Crater Pathfinder Map", "terralith:yellowstone,5,12,18,E5A61D,Yellowstone Pathfinder Map", "terralith:yosemite_lowlands,5,12,18,196621,Yosemite Lowlands Pathfinder Map"]
 		"Search Radius" = 6400
 		"Search Distance Increment" = 8
 		"Xp From Trade" = 5
