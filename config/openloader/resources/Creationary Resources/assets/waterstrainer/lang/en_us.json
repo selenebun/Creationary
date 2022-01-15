@@ -1,5 +1,6 @@
 {
     "item.waterstrainer.strainer_survivalist": "Sediment Strainer",
     "item.waterstrainer.strainer_survivalist_reinforced": "Reinforced Sediment Strainer",
-    "item.waterstrainer.strainer_survivalist_solid": "Solid Sediment Strainer"
+    "item.waterstrainer.strainer_survivalist_solid": "Solid Sediment Strainer",
+    "item.waterstrainer.string_mesh": "Canvas Mesh"
 }

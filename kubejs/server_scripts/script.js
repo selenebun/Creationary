@@ -10,6 +10,7 @@ onEvent("recipes", event => {
 	metalSheets(event);
 	computers(event);
 	storageNetwork(event);
+	strainers(event);
 	fixMissingRecipes(event);
 });
 
@@ -309,4 +310,9 @@ function unwantedRecipes(event) {
 
 	// Remove Waystone recipes.
 	event.remove({ mod: "waystones" });
+}
+
+// Make Water Strainer recipes use Farmer's Delight items.
+function strainers(event) {
+	event.replaceInput({ output: "waterstrainer:string_mesh" }, "minecraft:string", "farmersdelight:canvas");
 }
