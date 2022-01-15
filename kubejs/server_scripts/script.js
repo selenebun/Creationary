@@ -28,12 +28,12 @@ function computers(event) {
 	});
 	event.shaped("computercraft:computer_advanced", [
 		"BBB",
-		"BEB",
+		"BMB",
 		"BGB"
 	], {
 		B: "create:brass_sheet",
-		E: "create:electron_tube",
-		G: "#forge:glass_panes"
+		G: "#forge:glass_panes",
+		M: "create:precision_mechanism"
 	});
 	event.remove({ output: "computercraft:computer_command" });
 	event.shaped("computercraft:computer_command", [
@@ -48,13 +48,13 @@ function computers(event) {
 	event.remove({ output: "computercraft:computer_normal" });
 	event.shaped("computercraft:computer_normal", [
 		"AIA",
-		"IEI",
+		"IMI",
 		"AGA"
 	], {
 		A: "create:andesite_alloy",
-		E: "create:electron_tube",
 		I: "create:iron_sheet",
-		G: "#forge:glass_panes"
+		G: "#forge:glass_panes",
+		M: "create:precision_mechanism"
 	});
 
 	// Make peripherals more expensive.
@@ -276,7 +276,16 @@ function storageNetwork(event) {
 	event.replaceInput({ output: "storagenetwork:inventory" }, "minecraft:iron_nugget", "create:brass_nugget");
 	event.replaceInput({ output: "storagenetwork:inventory_remote" }, "minecraft:gold_ingot", "create:brass_ingot");
 	event.replaceInput({ output: "storagenetwork:kabel" }, "minecraft:stone_slab", "create:andesite_alloy");
-	event.replaceInput({ output: "storagenetwork:master" }, "minecraft:quartz_block", "create:brass_casing");
+	event.remove({ output: "storagenetwork:master" });
+	event.shaped("storagenetwork:master", [
+		"BCB",
+		"CEC",
+		"BCB"
+	], {
+		B: "create:brass_casing",
+		C: "storagenetwork:kabel",
+		E: "create:electron_tube"
+	});
 	event.replaceInput({ output: "storagenetwork:request" }, "minecraft:gold_ingot", "create:brass_ingot");	
 }
 
