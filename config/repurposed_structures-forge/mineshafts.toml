@@ -5,25 +5,25 @@
 # 0 is no Mineshafts while 1000 is max spawnrate.
 [Spawnrate]
 	#Range: 0.0 ~ 1000.0
-	birchMineshaftSpawnrate = 10.0
+	birchMineshaftSpawnrate = 0.0
 	#Range: 0.0 ~ 1000.0
-	jungleMineshaftSpawnrate = 10.0
+	jungleMineshaftSpawnrate = 0.0
 	#Range: 0.0 ~ 1000.0
-	desertMineshaftSpawnrate = 10.0
+	desertMineshaftSpawnrate = 0.0
 	#Range: 0.0 ~ 1000.0
-	stoneMineshaftSpawnrate = 20.0
+	stoneMineshaftSpawnrate = 0.0
 	#Range: 0.0 ~ 1000.0
-	savannaMineshaftSpawnrate = 20.0
+	savannaMineshaftSpawnrate = 0.0
 	#Range: 0.0 ~ 1000.0
-	icyMineshaftSpawnrate = 20.0
+	icyMineshaftSpawnrate = 0.0
 	#Range: 0.0 ~ 1000.0
-	taigaMineshaftSpawnrate = 10.0
+	taigaMineshaftSpawnrate = 0.0
 	#Range: 0.0 ~ 1000.0
-	darkForestMineshaftSpawnrate = 10.0
+	darkForestMineshaftSpawnrate = 0.0
 	#Range: 0.0 ~ 1000.0
-	swampMineshaftSpawnrate = 10.0
+	swampMineshaftSpawnrate = 0.0
 	#Range: 0.0 ~ 1000.0
-	oceanMineshaftSpawnrate = 15.0
+	oceanMineshaftSpawnrate = 0.0
 	#Range: 0.0 ~ 1000.0
 	netherMineshaftSpawnrate = 0.0
 	#Range: 0.0 ~ 1000.0

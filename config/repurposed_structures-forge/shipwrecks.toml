@@ -6,8 +6,8 @@
 	#Range: 1 ~ 1001
 	endShipwreckAverageChunkDistance = 24
 	#Range: 1 ~ 1001
-	netherBricksShipwreckAverageChunkDistance = 1001
+	netherBricksShipwreckAverageChunkDistance = 21
 	#Range: 1 ~ 1001
-	crimsonShipwreckAverageChunkDistance = 1001
+	crimsonShipwreckAverageChunkDistance = 18
 	#Range: 1 ~ 1001
-	warpedShipwreckAverageChunkDistance = 1001
+	warpedShipwreckAverageChunkDistance = 18

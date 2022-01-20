@@ -6,6 +6,8 @@
 	#Range: 1 ~ 1001
 	badlandsPyramidAverageChunkDistance = 1001
 	#Range: 1 ~ 1001
+	pyramidDarkForestAverageChunkDistance = 1001
+	#Range: 1 ~ 1001
 	pyramidSnowyAverageChunkDistance = 1001
 	#Range: 1 ~ 1001
 	pyramidIcyAverageChunkDistance = 1001

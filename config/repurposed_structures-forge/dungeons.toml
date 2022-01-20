@@ -9,29 +9,29 @@ shulkerBoxInEndDungeons = true
 # 0 for no Dungeons at all and 1000 for max Dungeon spawnrate.
 [AttemptsPerChunk]
 	#Range: 0 ~ 1000
-	badlandsDungeonAttemptsPerChunk = 8
+	badlandsDungeonAttemptsPerChunk = 0
 	#Range: 0 ~ 1000
-	darkForestDungeonAttemptsPerChunk = 8
+	darkForestDungeonAttemptsPerChunk = 0
 	#Range: 0 ~ 1000
-	desertDungeonAttemptsPerChunk = 8
+	desertDungeonAttemptsPerChunk = 0
 	#Range: 0 ~ 1000
-	deepDungeonAttemptsPerChunk = 4
+	deepDungeonAttemptsPerChunk = 0
 	#Range: 0 ~ 1000
-	jungleDungeonAttemptsPerChunk = 8
+	jungleDungeonAttemptsPerChunk = 0
 	#Range: 0 ~ 1000
 	mushroomDungeonAttemptsPerChunk = 0
 	#Range: 0 ~ 1000
-	snowDungeonAttemptsPerChunk = 8
+	snowDungeonAttemptsPerChunk = 0
 	#Range: 0 ~ 1000
-	icyDungeonAttemptsPerChunk = 8
+	icyDungeonAttemptsPerChunk = 0
 	#Range: 0 ~ 1000
-	swampDungeonAttemptsPerChunk = 8
+	swampDungeonAttemptsPerChunk = 0
 	#Range: 0 ~ 1000
-	endDungeonAttemptsPerChunk = 12
+	endDungeonAttemptsPerChunk = 0
 	#Range: 0 ~ 1000
-	netherDungeonAttemptsPerChunk = 12
+	netherDungeonAttemptsPerChunk = 0
 	#Range: 0 ~ 1000
-	oceanDungeonAttemptsPerChunk = 3
+	oceanDungeonAttemptsPerChunk = 0
 
 #-----------------------------------------------------------------------------------------
 # Minimum Y height that this dungeon can spawn at.
